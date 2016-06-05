@@ -1,0 +1,90 @@
+body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    color: #212121;
+}
+
+.brand-title,
+.brand-tagline {
+    margin: 0;
+}
+
+.brand-title {
+    color: #fafafa;
+    font-size: 1.5em;
+}
+
+.brand-tagline {
+    margin-top: .5em;
+    color: #e0e0e0;
+    font-size: 1em;
+}
+
+.sidebar {
+    background-color: #159957;
+    background-image: linear-gradient(120deg, #155799, #159957);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+}
+
+.content-heading {
+    color: #159957;
+}
+
+.card {
+    text-align: center;
+    font-weight: normal;
+}
+
+.card .avatar {
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+}
+
+.card-info p {
+    margin: 0;
+}
+
+.card-info .card-name {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.card-info .card-id {
+    font-size: .8em;
+    color: #616161;
+}
+
+@media (max-width: 48em) {
+    header {
+        padding: 1em;
+    }
+
+    .content {
+        padding: 0 1em;
+    }
+
+    .card {
+        margin-bottom: 2em;
+    }
+}
+
+@media (min-width: 48em) {
+    .content {
+        margin-left: 25%;
+        padding: 2em;
+    }
+
+    header {
+        margin: 80% 2em 0;
+        text-align: right;
+    }
+
+    .sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+    }
+}
