@@ -4,6 +4,15 @@ body {
     background-color: #fafafa;
 }
 
+footer {
+    margin-top: 2em;
+    padding: 1em;
+    font-size: .8em;
+    color: #757575;
+    line-height: 1.5em;
+    border-top: 1px solid #e3e3e3;
+}
+
 .brand-title,
 .brand-tagline {
     margin: 0;
