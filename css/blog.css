@@ -9,12 +9,40 @@ header a {
 }
 
 footer {
-    margin-top: 2em;
     padding: 1em;
+    margin-top: 2em;
     font-size: .8em;
-    color: #757575;
     line-height: 1.5em;
+    color: #757575;
     border-top: 1px solid #e3e3e3;
+}
+
+section {
+    margin-top: 2em;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+section h4 {
+    margin: 0;
+}
+
+section ul {
+    margin: 0;
+}
+
+figure {
+    margin-bottom: 2em;
+}
+
+figure img {
+    max-width: 100%;
+}
+
+figure figcaption {
+    font-size: .8em;
+    color: #333;
+    text-align: center;
 }
 
 .brand-title,
@@ -23,14 +51,14 @@ footer {
 }
 
 .brand-title {
-    color: #fafafa;
     font-size: 1.5em;
+    color: #fafafa;
 }
 
 .brand-tagline {
     margin-top: .5em;
-    color: #e0e0e0;
     font-size: 1em;
+    color: #e0e0e0;
 }
 
 .sidebar {
@@ -53,8 +81,8 @@ footer {
 
 .card {
     margin: 0.5em;
-    text-align: center;
     font-weight: normal;
+    text-align: center;
     background-color: #fff;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
 }
@@ -66,16 +94,16 @@ footer {
 }
 
 .card .avatar {
-    margin: 1em 0;
     width: 8em;
     height: 8em;
+    margin: 1em 0;
     border-radius: 50%;
 }
 
 .card-info {
     padding: 1em;
-    background-color: #159957;
     color: #fff;
+    background-color: #159957;
 }
 
 .card-products p,
@@ -115,8 +143,8 @@ footer {
 
 .card-products .info {
     padding: 1em;
-    background-color: #159957;
     color: #fff;
+    background-color: #159957;
 }
 
 .card-products .name {
@@ -126,8 +154,8 @@ footer {
 .card-products .description {
     margin-top: .5em;
     font-size: .8em;
-    color: #e0e0e0;
     line-height: 1.4em;
+    color: #e0e0e0;
 }
 
 .badge {
@@ -136,38 +164,10 @@ footer {
 
 .badge span {
     padding: .5em;
-    background-color: #159957;
+    font-size: .8em;
     color: #fff;
-    font-size: .8em;
+    background-color: #159957;
     border-radius: .4em;
-}
-
-section {
-    margin-top: 2em;
-    font-size: 1em;
-    line-height: 1.5em;
-}
-
-section h4 {
-    margin: 0;
-}
-
-section ul {
-    margin: 0;
-}
-
-figure {
-    margin-bottom: 2em;
-}
-
-figure img {
-    max-width: 100%;
-}
-
-figure figcaption {
-    text-align: center;
-    font-size: .8em;
-    color: #333;
 }
 
 @media (max-width: 48em) {
