@@ -4,6 +4,10 @@ body {
     background-color: #fafafa;
 }
 
+header a {
+    text-decoration: none;
+}
+
 footer {
     margin-top: 2em;
     padding: 1em;
@@ -123,6 +127,46 @@ footer {
     font-size: .8em;
     color: #e0e0e0;
     line-height: 1.4em;
+}
+
+.badge {
+    margin-top: 1em;
+}
+
+.badge span {
+    padding: .5em;
+    background-color: #159957;
+    color: #fff;
+    font-size: .8em;
+    border-radius: .4em;
+}
+
+section {
+    margin-top: 2em;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+section h4 {
+    margin: 0;
+}
+
+section ul {
+    margin: 0;
+}
+
+figure {
+    margin-bottom: 2em;
+}
+
+figure img {
+    max-width: 100%;
+}
+
+figure figcaption {
+    text-align: center;
+    font-size: .8em;
+    color: #333;
 }
 
 @media (max-width: 48em) {
